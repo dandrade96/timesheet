@@ -1,0 +1,37 @@
+-- Planejamento --
+
+- Entidades do projeto -
+
+    > Usuário
+    > Tarefas
+    > Categorias
+    
+    - Relacionamentos -
+
+        > Usuário -> Tarefas (Um Tarefa SEMPRE vai pertencer a um Usuário).
+        > Tarefas <-> Categorias (Uma Tarefa SEMPRE vai partencer a uma Categoria / Uma Categoria pode ter VARIAS Tarefas).
+
+    - Users -
+
+        > Padrão Laravel
+    
+    - Tasks -
+
+        > Id
+        > Titulo
+        > Descrição
+        > Categoria
+        > Data
+        > Hora de inicio
+        > Hora de termino
+        > Categoria_id
+        > Usuário_id
+
+    - Categories -
+
+        > Id
+        > Nome
+        > Cor (hexadecimal)
+        > Usuário_id
+
+
